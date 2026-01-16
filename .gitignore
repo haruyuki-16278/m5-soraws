@@ -1,0 +1,32 @@
+# 証明書ファイル（セキュリティ上の理由で除外）
+certificates/
+*.pem
+*.pem.crt
+*.pem.key
+*.key
+*.crt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# 一時ファイル
+*.tmp
+*.log
+.DS_Store
+
+# エディタ設定
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
