@@ -61,7 +61,7 @@ sudo apt-get install jq
 3. Amazon Trust Services (ATS) ルートCA証明書のダウンロード
 4. IoTポリシーの作成（MQTT接続に必要な権限を付与）
 5. 証明書へのポリシーのアタッチ
-6. ThingへのN証明書のアタッチ
+6. Thingへの証明書のアタッチ
 7. IoTエンドポイントの取得と表示
 
 ### 生成される証明書ファイル
