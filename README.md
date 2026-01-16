@@ -96,6 +96,35 @@ mosquitto_sub --cafile ./certificates/AmazonRootCA1.pem \
   -t 'test/topic'
 ```
 
+#### Pythonを使用する場合
+
+```bash
+# 必要なライブラリをインストール
+pip install AWSIoTPythonSDK
+
+# Pythonスクリプトを実行
+./mqtt-example.py \
+  --endpoint your-endpoint.iot.ap-northeast-1.amazonaws.com \
+  --thing-name my-iot-thing \
+  --cert-dir ./certificates \
+  --topic test/topic
+```
+
+#### Node.jsを使用する場合
+
+```bash
+# 必要なライブラリをインストール
+npm install
+
+# Node.jsスクリプトを実行
+./mqtt-example.js \
+  your-endpoint.iot.ap-northeast-1.amazonaws.com \
+  my-iot-thing \
+  ./certificates \
+  test/topic
+```
+```
+
 ### リソースのクリーンアップ
 
 作成したAWS IoTリソースを削除する場合：
