@@ -123,7 +123,6 @@ npm install
   ./certificates \
   test/topic
 ```
-```
 
 ### リソースのクリーンアップ
 
