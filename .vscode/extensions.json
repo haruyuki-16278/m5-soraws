@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "vscode-arduino.vscode-arduino-community",
+    "oscarewenstudent.arduino-themes-vsc",
+    "ms-vscode.cpptools",
+    "ms-vscode.vscode-serial-monitor"
+  ]
+}

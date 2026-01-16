@@ -1,0 +1,9 @@
+{
+  "arduino.disableIntelliSenseAutoGen": true,
+  "arduino.useArduinoCli": true,
+  "arduino.commandPath": "/opt/homebrew/bin/arduino-cli",
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "C_Cpp.default.includePath": [
+    "/Users/haruyuki/Library/Arduino15/libraries"
+  ]
+}
