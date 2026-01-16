@@ -7,6 +7,10 @@ AWS IoT CoreにMQTT接続し、メッセージの送受信を行います。
 
 必要なライブラリ:
     pip install AWSIoTPythonSDK
+
+注意: このサンプルはAWSIoTPythonSDK (v1)を使用しています。
+新しいプロジェクトの場合は、AWS IoT Device SDK v2 (awsiotsdk)の使用を推奨します。
+詳細: https://github.com/aws/aws-iot-device-sdk-python-v2
 """
 
 import json
